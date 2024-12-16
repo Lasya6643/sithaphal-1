@@ -1,12 +1,19 @@
 #Chat with PDF - README
+
+
 Project Overview :
+
 This project is a Python-based application designed to extract text from PDF files using various libraries, including PyPDF2, PDFMiner, and transformers. The main goal is to allow users to upload a PDF file and retrieve textual content, which can then be further processed for natural language understanding tasks such as text summarization, question answering, and more.
 
 Key Features :
-PDF Text Extraction: Extracts readable text from various PDF formats.
-Text Summarization: Provides the option to summarize long text extracted from PDFs.
-Question Answering: Allows users to ask questions about the content of the uploaded PDF file.
+          PDF Text Extraction: Extracts readable text from various PDF formats.
+Text Summarization:          
+          Provides the option to summarize long text extracted from PDFs.
+Question Answering: 
+          Allows users to ask questions about the content of the uploaded PDF file.
+
 Tech Stack :
+
 Python: The core programming language for the project.
 PyPDF2: A library for PDF parsing and text extraction.
 PDFMiner: A more advanced PDF text extraction library.
