@@ -1,0 +1,9 @@
+pdf_path = "C:/sample.pdf"
+
+try:
+    with open(pdf_path, "rb") as file:
+        print("File opened successfully!")
+except PermissionError:
+    print("Permission denied!")
+except Exception as e:
+    print(f"Error: {e}")
